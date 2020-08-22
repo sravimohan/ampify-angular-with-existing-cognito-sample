@@ -13,7 +13,7 @@ https://docs.amplify.aws/ui/auth/authenticator/q/framework/angular
 
 ## Configuration:
 In app.module.ts 
-...
+```...
 /* Add Amplify imports */
 import { AmplifyUIAngularModule } from '@aws-amplify/ui-angular';
 import Amplify from 'aws-amplify';
@@ -29,3 +29,4 @@ Amplify.configure({
   }
 });
 ...
+```
